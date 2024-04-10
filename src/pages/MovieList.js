@@ -3,7 +3,9 @@ import React from 'react'
 export const MovieList = () => {
   return (
     <main>
-      MovieList
+        <div className='text-9xl'>
+            MovieList
+        </div>
     </main>
   )
 }
