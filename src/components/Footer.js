@@ -11,7 +11,7 @@ export const Footer = () => {
             <Link href="/" className="hover:underline">
               Cinemate™
             </Link>
-            . All Rights Reserved.
+            . All Rights Reserved. Created by Sandeep Belagavi (Hobby)
           </span>
           <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
             {/* <li>
