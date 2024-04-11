@@ -80,6 +80,30 @@ export const Header = () => {
                 </svg>
               )}
             </button>
+            <button
+              data-tooltip-target="navbar-search-example-toggle-dark-mode-tooltip"
+              type="button"
+              data-toggle-dark="light"
+              className="flex items-center p-2 mr-2 text-xs font-medium text-gray-700 bg-white rounded-lg border border-gray-200 toggle-dark-state-example hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-gray-300 dark:focus:ring-gray-500 dark:bg-gray-800 focus:outline-none dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+              onClick={() =>
+                window.open("https://github.com/sandeepV2/cinemate", "_blank")
+              }
+            >
+              <svg
+                aria-hidden="true"
+                data-toggle-icon="github"
+                class="w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 25"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M10 0a10 10 0 00-3.16 19.49c.5.09.68-.22.68-.48l-.01-1.68c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.64-1.34-2.24-.26-4.59-1.12-4.59-5a3.93 3.93 0 011.05-2.73c-.1-.26-.46-1.29.1-2.69 0 0 .86-.27 2.8 1.04A9.63 9.63 0 0110 5.58c.85.02 1.71.11 2.5.31 1.94-1.31 2.8-1.04 2.8-1.04.56 1.4.21 2.43.1 2.69a3.92 3.92 0 011.05 2.73c0 3.89-2.35 4.73-4.59 4.99.36.31.68.93.68 1.87l-.01 2.78c0 .26.17.58.69.48A10 10 0 0010 0z"
+                  clipRule="evenodd"
+                />
+              </svg>
+            </button>
             {/* <button
               type="button"
               data-collapse-toggle="navbar-search"
