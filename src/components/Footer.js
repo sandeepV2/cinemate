@@ -14,7 +14,7 @@ export const Footer = () => {
             . All Rights Reserved.
           </span>
           <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
-            <li>
+            {/* <li>
               <a
                 href="#"
                 target="_blank"
@@ -22,10 +22,10 @@ export const Footer = () => {
               >
                 Instagram
               </a>
-            </li>
+            </li> */}
             <li>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/sandeep-belagavi-a679a689/"
                 target="_blank"
                 className="hover:underline me-4 md:me-6"
               >
@@ -34,7 +34,7 @@ export const Footer = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="https://twitter.com/BelagaviSa20031"
                 target="_blank"
                 className="hover:underline me-4 md:me-6"
               >
@@ -42,7 +42,11 @@ export const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="#" target="_blank" className="hover:underline">
+              <a
+                href="https://github.com/sandeepV2"
+                target="_blank"
+                className="hover:underline"
+              >
                 GitHub
               </a>
             </li>
